@@ -53,7 +53,7 @@ function viewNotes(){
     if (Noteslst.length != 0) {
         notesElm.innerHTML = htmlquery;
       } else {
-        notesElm.innerHTML = `Nothing to show! Use "Add a Note" section above to add notes.`;
+        notesElm.innerHTML = `You have not added any note !`;
       }
 }
 
