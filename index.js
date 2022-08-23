@@ -20,6 +20,7 @@ addBtn.addEventListener("click", function(e) {
   txt.value = "";
 
   viewNotes();
+  location.reload();
 
 });
 
